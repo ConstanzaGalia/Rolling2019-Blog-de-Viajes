@@ -1,0 +1,158 @@
+body {
+  padding-top: 56px;
+
+}
+/*=============================================
+ TEXTOS DEL SITIO
+ =============================================*/
+.menuSuperior a{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+}
+.menuSuperior li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tituloPrincipal{
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 70px;
+}
+.tituloSecundario{
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 40px;
+}
+.tituloContenido{
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+}
+.textoContenido{
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+	font-size: 16px;	
+}
+.textoContenidoMin{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+}
+.textoPieFotos{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+.titulosMiniaturas{
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.titulosComentarios{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.textoPiePost{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+}
+.textoAutores{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+.textoBotones{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+}
+.leerMas{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*=============================================
+ REDES SOCIALES Y PUBLICIDADES
+ =============================================*/
+.faceB{
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+.redesSociales a{
+	color: #000000;	
+}
+.redesSociales a:hover{
+	color:rgba(0, 0, 179, 0.836)
+}
+.redesSociales a i{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#publicidades{
+	margin-top: 10px;
+}
+#publicidades img{
+	margin-top: 10px;
+}
+#icono:hover{
+	color: rgb(101, 202, 0);
+}
+/*=============================================
+ ESTILOS SLIDER PUBLICIDADES
+ =============================================*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+	content: '>';
+	font-size: 55px;
+	color: #828282;
+}
+
+.carousel-control-prev-icon:after {
+	content: '<';
+	font-size: 55px;
+	color: #828282;
+}
+/*=============================================
+ PAGINACION
+ =============================================*/
+ .page-link {
+ 	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	background-color: #242323;
+}
+ 
+.page-item.disabled .page-link {
+ 	color: #FFFFFF;
+	pointer-events: none;
+	cursor: auto;
+	background-color: #9F9E9E;
+	
+ 
+}
+ 
+.page-item.active .page-link { 
+	z-index: 1;
+	color: #FFFFFF;
+	background-color: #242323;
+	border-color: #AEFF5E;
+}
+ 
+.page-link:focus, .page-link:hover {
+	color: #fff;
+ 	text-decoration: none;
+ 	background-color: #A09F9F;
+}
